@@ -1,0 +1,26 @@
+.sharedHeading {
+  width: 688px;
+  height: 91px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  color: var(--text-extra-black-color);
+}
+
+.sharedHeading h1 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 100%;
+  text-align: center;
+}
+
+.sharedHeading p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.3;
+}
