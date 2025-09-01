@@ -1,0 +1,100 @@
+.whyContainer {
+  width: 1440px;
+  height: 1000px;
+  padding: 56px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  margin: 0 auto;
+}
+
+.whyContainer h1 {
+  width: 1296px;
+  height: 44px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: -2%;
+  text-align: center;
+}
+
+.whyContainer p {
+  width: 1064px;
+  height: 78px;
+}
+
+.whyCards {
+  height: 710px;
+  padding: 0 72px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+/* ///////////////////////////// whyCard ////////////////////////////////////// */
+
+.whyCard {
+  width: 344px;
+  height: 339px;
+  border-radius: 16px;
+  border: 1px solid #a7acb1;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border: 1px solid #a7acb1;
+}
+
+.whyUpper {
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.whyCard .whyUpper .upperImg {
+  width: 72px;
+  height: 72px;
+  color: #1e4469;
+}
+
+.whyCard .whyUpper .number {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-extra-black-color);
+}
+
+.whyCard .lowerContent {
+  width: 280px !important;
+  height: 168px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start !important;
+  justify-content: center;
+  gap: 12px;
+}
+
+.whyCard .lowerContent h1 {
+  width: 280px !important;
+  height: 24px !important;
+  text-align: start;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 100%;
+  color: var(--text-extra-black-color);
+}
+.whyCard .lowerContent p {
+  width: 280px !important;
+  height: 132px !important;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 100%;
+  color: var(--text-extra-black-color);
+}

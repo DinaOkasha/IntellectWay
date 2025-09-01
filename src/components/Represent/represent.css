@@ -1,0 +1,106 @@
+.outerRepresentContainer {
+  width: 1440px;
+  height: 362px;
+  padding-right: 72px;
+  padding-left: 72px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 56px auto;
+
+  background-color: #d1eef2;
+  position: relative;
+}
+.ltptn {
+  width: 375px;
+  height: 367px;
+  position: absolute;
+  left: 0;
+}
+.rtptn {
+  width: 375px;
+  height: 367px;
+  position: absolute;
+  right: 0;
+}
+
+.innerRepresentContainer {
+  width: 1296px;
+  height: 362px;
+  margin: 0 auto;
+  border-radius: 56px;
+  padding: 56px 72px;
+  gap: 116px;
+}
+
+.representContainer {
+  width: 989px;
+  height: 250px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.representContainer .content {
+  width: 989px;
+  height: 142px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.representContainer .content h1 {
+  font-size: 36px;
+  height: 44px;
+  letter-spacing: -0.02em;
+}
+
+.representContainer .content p {
+  font-size: 20px;
+  line-height: 150%;
+  height: 90px;
+  width: 989px;
+}
+
+.CTA {
+  width: 989px;
+  height: 76px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+}
+
+.CTA button {
+  width: 268px;
+  background-color: var(--primary-Turquoise);
+  height: 48px;
+  border: none;
+  outline: none;
+  color: var(--text-grey-color);
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 32px;
+}
+
+.CTAparagraph {
+  width: 989px;
+  height: 20px;
+  padding: 0 8px;
+}
+
+.CTAparagraph p {
+  width: 973px;
+  color: #6c757d;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+}

@@ -30,6 +30,10 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import Services from "../components/Services/Services";
+import WhyUs from "../components/WhyUs/WhyUs";
+import Represent from "../components/Represent/Represent";
+import Partners from "../components/Partners/Partners";
+import Csr from "../components/CSR/Csr";
 
 export default function HomePage() {
   return (
@@ -56,6 +60,10 @@ export default function HomePage() {
       <About />
       <Opportunities />
       <Services />
+      <WhyUs />
+      <Represent />
+      <Partners />
+      <Csr />
     </>
   );
 }

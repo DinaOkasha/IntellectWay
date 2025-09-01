@@ -1,12 +1,13 @@
 .container2 {
   /* max-width: 1210px; */
-  width: 1210px;
-  margin: 70px auto;
-  min-height: 1061px;
-  padding: 0 40px;
+  width: 1440px;
+  margin: 56px auto;
+  /* min-height: 1061px; */
+  height: 1173px;
+  padding: 56px 72px;
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  gap: 10px;
   justify-content: center;
   align-items: center;
 }
@@ -104,6 +105,8 @@
 .aboutcards {
   display: flex;
   gap: 32px;
+  width: 1296px;
+  margin-top: 48px;
 }
 
 .aboutcardItem {

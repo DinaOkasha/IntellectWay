@@ -4,6 +4,7 @@
   --main-white-color: #ffffff;
   --text-grey-color: #f1f1f1;
   --text-extra-black-color: #414141;
+  --primary-Turquoise: #17aac0;
   --text-col1-color: #ff6f61;
   --text-col2-color: #9bd4a7;
   --text-col3-color: #f3c623;
@@ -22,7 +23,7 @@ body {
 
 .container {
   padding: 70px;
-  width: 1240px;
+  width: 1440px;
   /* display: flex;
   flex-direction: column; */
   /* gap: 56px; */

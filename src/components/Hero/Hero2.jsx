@@ -9,7 +9,7 @@ export default function Hero2() {
     <>
       <div className="hero">
         <div className="image">
-          <img src={homeImg2} alt="" style={{ height: "60vh" }} />
+          <img src={homeImg2} alt="" />
         </div>
         <div
           className="container hero-text"

@@ -1,28 +1,39 @@
+.containerService {
+  width: 1440px;
+  height: 721px;
+  padding: 56px 72px;
+  margin: 0 auto;
+  position: relative;
+  gap: 48px;
+}
+
 .options {
-  width: 990px;
-  height: 40px;
-  margin: 48px auto;
+  width: 1130px;
+  height: 53px;
+  margin: 48px auto 32px auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border-bottom-left-radius: 12px; */
-  /* border-bottom: 2px solid #1e4469; */
 }
 
 .options .btnOptions {
   text-align: center;
-  width: 330px;
-  padding: 8px;
+  width: 377px;
+  padding: 12px;
   border: none;
   outline: none;
   cursor: pointer;
   border-bottom: 2px solid #1e4469;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--text-extra-black-color);
 }
 
 .activelt {
   background-color: #1e4469;
   border-bottom-left-radius: 12px;
   border-top-left-radius: 12px;
+  color: #d2dae1 !important;
 }
 
 .active {
@@ -33,4 +44,66 @@
   /* background-color: #1e4469;
   border-bottom-right-radius: 12px;
   border-top-right-radius: 12px; */
+}
+
+/* //////////////////////// serviceCard ///////////////////////////////////// */
+
+.serviceCard {
+  width: 1130px;
+  height: 364px;
+  display: flex;
+  gap: 48px;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.serviceCard .image {
+  width: 595px;
+  /* height: 364px; */
+  height: 372px;
+}
+
+.serviceCard .image img {
+  width: 560px;
+  height: 100%;
+  border-radius: 32px;
+}
+
+.serviceCard .serviceContent {
+  width: 522px;
+  height: 258px;
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.serviceCard .serviceContent h1 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  color: var(--text-extra-black-color);
+  margin-bottom: 16px;
+}
+.serviceCard .serviceContent p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: var(--text-extra-black-color);
+}
+.serviceCard .serviceContent button {
+  width: 255px;
+  height: 48px;
+  border: none;
+  outline: none;
+  color: var(--primary-Turquoise);
+  padding: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
