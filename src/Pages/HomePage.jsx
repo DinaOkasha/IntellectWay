@@ -19,12 +19,12 @@
 // HomePage.tsx / HomePage.jsx
 import Hero from "../components/Hero/Hero";
 import Hero2 from "../components/Hero/Hero2";
-import Hero3 from "../components/Hero/Hero"; // ✅ correct file
+import Hero3 from "../components/Hero/Hero";
 import Hero4 from "../components/Hero/Hero4";
 import About from "../components/About/About";
 import Opportunities from "../components/Opportunities/Opportunities";
 
-// ✅ import the React wrapper + modules + styles
+//the React wrapper + modules + styles
 import { Swiper as SwiperComponent, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import "swiper/css";
@@ -34,6 +34,8 @@ import WhyUs from "../components/WhyUs/WhyUs";
 import Represent from "../components/Represent/Represent";
 import Partners from "../components/Partners/Partners";
 import Csr from "../components/CSR/Csr";
+import Blog from "../components/Blog/Blog";
+import ContactUs from "../components/ContactUs/ContactUs";
 
 export default function HomePage() {
   return (
@@ -64,6 +66,8 @@ export default function HomePage() {
       <Represent />
       <Partners />
       <Csr />
+      <Blog />
+      <ContactUs />
     </>
   );
 }

@@ -1,0 +1,270 @@
+.contactContainer {
+  width: 1440px;
+  height: 796px;
+  padding: 56px 0;
+  margin: 56px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 44px;
+  color: var(--text-extra-black-color);
+}
+
+.contactUpper h1 {
+  width: 195px;
+  height: 44px;
+  font-weight: 500;
+  font-size: 36px;
+  letter-spacing: -0.02em;
+  color: var(--text-extra-black-color);
+}
+
+/* //////////////////////////////////////////////////////////// */
+
+.contactLower {
+  width: 1440px;
+  height: 596px;
+  padding: 0 56px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactinfo {
+  width: 652px;
+  height: 420px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contactForm {
+  width: 545px;
+  height: 596px;
+  border-radius: 24px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #e2e3e580;
+}
+
+.infoTitle {
+  width: 210px;
+  height: 24px;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--text-extra-black-color);
+}
+
+.infoAddress {
+  width: 588px;
+  height: 228px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoAddress .addressBox {
+  width: 250px;
+  height: 228px;
+  border-radius: 8px;
+  padding: 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.upperInfo {
+  width: 588px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+h3 {
+  width: 250px;
+  height: 24px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+.AC {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.AL,
+.AE,
+.AW,
+.AP {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.ALL {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ALLOuter,
+.AE,
+.AW,
+.AP {
+  display: flex;
+  gap: 8px;
+}
+
+.Aicon img {
+  width: 18px;
+  height: 18px;
+}
+
+.socialIcons {
+  width: 176px;
+  height: 32px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialIcons img {
+  width: 32px;
+  height: 32px;
+}
+
+.socialInfo {
+  width: 230px;
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: #414141 !important;
+}
+
+/* ///////////////////////////// form /////////////////////////////// */
+
+.formContainer {
+  width: 481px;
+  height: 532px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+input {
+  width: 481px;
+  height: 41px;
+  border-radius: 14px;
+  padding: 12px;
+  border: 1px solid #6c757d;
+  outline: none;
+  background-color: #e2e3e580;
+}
+
+.section2 input {
+  width: 481px;
+  height: 95px;
+  border-radius: 14px;
+  padding: 12px;
+  border: 1px solid #6c757d;
+  outline: none;
+  background-color: #e2e3e580;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.formTitle {
+  font-weight: 600;
+  font-size: 20px;
+  width: 500px;
+}
+form {
+  width: 481px;
+  height: 412px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+form .section {
+  width: 481px;
+  height: 66px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+form .radioForm {
+  width: 295px;
+  height: 46px;
+  display: flex;
+  /* flex-direction: column; */
+  gap: 12px;
+}
+
+.section label {
+  font-size: 14px;
+  font-weight: 500;
+}
+.section2 label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.labelRadio {
+  width: 295px;
+  height: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+}
+.radioForm label {
+  width: 77px;
+  height: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  user-select: none;
+}
+
+legend {
+  margin-bottom: 8px;
+  color: #414141;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.sectionbtn button {
+  width: 144px;
+  height: 48px;
+  border: none;
+  outline: none;
+  background-color: #17aac0;
+  color: #f1f1f1;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  margin-top: 12px;
+}
+
+.radio input[type="radio"] {
+  accent-color: #6c757d;
+  /* width: 18px;
+  height: 18px; */
+  background-color: #e2e3e580;
+  margin: 0 6px 0 0;
+  vertical-align: middle;
+}
