@@ -1,8 +1,7 @@
 .footerContainer {
   width: 1440px;
   height: 419px;
-
-  margin: 56px auto;
+  margin: 56px auto 0px;
   background-color: #17aac0;
   color: var(--text-grey-color);
   display: flex;
