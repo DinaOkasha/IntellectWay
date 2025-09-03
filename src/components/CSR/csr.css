@@ -70,4 +70,5 @@
   font-size: 20px;
   line-height: 130%;
   color: var(--text-grey-color);
+  cursor: pointer;
 }

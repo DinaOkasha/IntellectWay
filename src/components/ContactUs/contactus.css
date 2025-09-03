@@ -2,7 +2,7 @@
   width: 1440px;
   height: 796px;
   padding: 56px 0;
-  margin: 56px auto;
+  margin: 56px auto 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -209,6 +209,7 @@ form .radioForm {
   display: flex;
   /* flex-direction: column; */
   gap: 12px;
+  border: none;
 }
 
 .section label {
