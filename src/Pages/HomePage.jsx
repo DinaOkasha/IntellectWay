@@ -36,6 +36,7 @@ import Partners from "../components/Partners/Partners";
 import Csr from "../components/CSR/Csr";
 import Blog from "../components/Blog/Blog";
 import ContactUs from "../components/ContactUs/ContactUs";
+import Footer from "../components/Footer/Footer";
 
 export default function HomePage() {
   return (
@@ -68,6 +69,7 @@ export default function HomePage() {
       <Csr />
       <Blog />
       <ContactUs />
+      <Footer />
     </>
   );
 }

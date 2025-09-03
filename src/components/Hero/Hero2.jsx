@@ -7,14 +7,11 @@ import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 export default function Hero2() {
   return (
     <>
-      <div className="hero">
+      <div className="heroContainer">
         <div className="image">
           <img src={homeImg2} alt="" />
         </div>
-        <div
-          className="container hero-text"
-          style={{ height: "290px", top: "20px", left: "-10px" }}
-        >
+        <div className="hero-text">
           <h1>Begin Your Global Education Journey.</h1>
           <p>
             Explore world-class opportunities through scholarships, exchange

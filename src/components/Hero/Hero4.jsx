@@ -7,14 +7,11 @@ import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 export default function Hero4() {
   return (
     <>
-      <div className="hero">
+      <div className="heroContainer">
         <div className="image">
           <img src={homeImg4} alt="" />
         </div>
-        <div
-          className="container hero-text"
-          style={{ top: "20px", left: "45px" }}
-        >
+        <div className=" hero-text">
           <h1>Corporate Social Responsibility</h1>
           <p style={{ height: "174px" }}>
             At Intellectway, our CSR initiative is committed to empowering

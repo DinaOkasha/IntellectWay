@@ -130,9 +130,10 @@ h3 {
   gap: 16px;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
-.socialIcons img {
+.socialIcons .socialIcon {
   width: 32px;
   height: 32px;
 }
@@ -218,9 +219,19 @@ form .radioForm {
   font-size: 14px;
   font-weight: 500;
 }
+.section2 textarea {
+  padding: 12px;
+  background-color: #e2e3e580;
+  border: 1px solid #6c757d;
+  color: #6c757d;
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 14px;
+  outline: none;
+}
 
 .labelRadio {
-  width: 295px;
+  width: 356px;
   height: 17px;
   display: flex;
   justify-content: center;
@@ -228,7 +239,7 @@ form .radioForm {
   gap: 36px;
 }
 .radioForm label {
-  width: 77px;
+  /* width: 77px; */
   height: 17px;
   display: flex;
   justify-content: center;
@@ -258,13 +269,42 @@ legend {
   font-size: 16px;
   line-height: 100%;
   margin-top: 12px;
+  cursor: pointer;
 }
 
-.radio input[type="radio"] {
-  accent-color: #6c757d;
-  /* width: 18px;
-  height: 18px; */
-  background-color: #e2e3e580;
-  margin: 0 6px 0 0;
-  vertical-align: middle;
+.labelRadio .radio input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  width: 25px;
+}
+
+.labelRadio label {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.labelRadio label::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border: 1px solid #6c757d;
+  position: absolute;
+  border-radius: 50%;
+  left: -1px;
+  top: -2px;
+  transform: translateX(50%);
+}
+
+.radio input[type="radio"]:checked + span::after {
+  content: "";
+  background-color: #6c757d;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  border-radius: 50%;
+  left: 9px;
+  top: 40%;
+  transform: translateY(-50%);
 }

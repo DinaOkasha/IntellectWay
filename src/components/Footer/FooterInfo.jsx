@@ -1,17 +1,16 @@
-import LocationImg from "../../assets/Contact/location.png";
-import emailImg from "../../assets/Contact/sms.png";
-import whatsImg from "../../assets/Contact/Vector.png";
-import phoneImg from "../../assets/Contact/phone.png";
-import Social from "./Social";
+import LocationImg from "../../assets/Footer/location.png";
+import emailImg from "../../assets/Footer/sms.png";
+import phoneImg from "../../assets/Footer/Vector.png";
+// import Social from "./Social";
 
-export default function ContactInfo() {
+export default function FooterInfo() {
   const contactAddress = [
     {
       id: 1,
       country: "United States",
-      location: ["1775 Tysons", "Boulevard Floor 5", "McLean, Virginia 22102"],
+      location: ["1775 Tysons Boulevard FL 5", "McLean, Virginia 22102"],
       email: "info@intellectway.com",
-      whatsapp: "+1 (202 ) 820 8282",
+
       phone: "+1 (202 ) 601 -9001",
     },
     {
@@ -23,16 +22,13 @@ export default function ContactInfo() {
         "London, WC1H 9BB",
       ],
       email: "info-uk@intellectway.com",
-      whatsapp: "+44 -203 -8685-601",
+
       phone: "+44 -203 -8685-601",
     },
   ];
   return (
     <>
       <div className="upperInfo">
-        <div className="infoTitle">
-          <h3>Contact information</h3>
-        </div>
         <div className="infoAddress">
           {contactAddress.map((add) => {
             return (
@@ -56,13 +52,6 @@ export default function ContactInfo() {
                   </div>
                   {add.email}
                 </div>
-                <div className="AW">
-                  {" "}
-                  <div className="Aicon">
-                    <img src={whatsImg} alt="" />
-                  </div>
-                  {add.whatsapp}
-                </div>
                 <div className="AP">
                   {" "}
                   <div className="Aicon">
@@ -74,10 +63,6 @@ export default function ContactInfo() {
             );
           })}
         </div>
-      </div>
-
-      <div className="socialInfo">
-        <Social title={"Social Media"} />
       </div>
     </>
   );

@@ -1,0 +1,132 @@
+.footerContainer {
+  width: 1440px;
+  height: 419px;
+
+  margin: 56px auto;
+  background-color: #17aac0;
+  color: var(--text-grey-color);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.footerUpper {
+  width: 1440px;
+  height: 322px;
+  padding: 72px;
+  display: flex;
+  /* flex-direction: column; */
+  gap: 64px;
+}
+
+.headFooter {
+  width: 230px;
+  height: 244px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.headFooter img {
+  width: 230px;
+  height: 72px;
+}
+
+.headFooter p {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.headFooter .socialFooter {
+  width: 230px;
+  height: 68px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.navFooter {
+  width: 1000px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navFooter .navLinks {
+  width: 194px;
+  height: 234px;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-auto-flow: column;
+  gap: 16px;
+  text-align: center;
+  padding: 8px;
+}
+
+.navFooter .navLinks a {
+  width: 121px;
+  height: 34px;
+  padding: 4px 12px;
+  /* text-align: center; */
+}
+
+.navInfo {
+  width: 562px;
+  height: 177px;
+}
+
+.navFooter .navInfo .infoAddress .addressBox .AL,
+.navFooter .navInfo .infoAddress .addressBox .AE,
+.navFooter .navInfo .infoAddress .addressBox .AP {
+  font-size: 14px;
+}
+
+.navFooter .navInfo .infoAddress .addressBox .AC {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footerLower {
+  width: 1440px;
+  height: 65px;
+  border-top: 1px solid #d1eef2;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 72px;
+}
+
+.footerLower .links {
+  width: 352px;
+  height: 33px;
+  padding: 8px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerLower .links .linkItem {
+  /* width: 75px; */
+  height: 17px;
+  border-right: 1px solid #f1f1f1 !important;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #f1f1f1;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.footerLower .copyRights {
+  width: 710px;
+  height: 20px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+}

@@ -1,44 +1,63 @@
 nav {
+  width: 1440px;
+  height: 72px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 72px;
   padding: 10px 72px;
   background-color: var(--main-white-color);
+  gap: 117px;
 }
 
-ul {
+nav .navItems {
+  width: 706px;
+  height: 50px;
   display: flex;
   list-style: none;
   align-items: center;
   justify-content: center;
-  gap: 21px;
+  gap: 16px;
   font-weight: 400;
   color: #414141;
+  cursor: pointer;
 }
-
-.navItems {
-  width: 55%;
+ul li a {
+  width: 68px;
+  height: 34px;
+  padding: 8px 12px;
+  display: inline-block;
 }
 
 .logo img {
-  width: 100px;
-  height: 33px;
+  width: 128px;
+  height: 40px;
+  margin-top: 6px;
+}
+
+.inter {
+  width: 228px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 5px;
 }
 
 .signIn {
   color: #414141;
   background-color: var(--main-white-color);
   border: 1px #a7acb1 solid;
-  margin-right: 10px;
   outline: none;
   border-radius: 30px;
   border-radius: 999px;
   padding: 12px 24px;
   cursor: pointer;
-  width: 110px;
+  width: 112px;
   height: 48px;
   font-weight: 400;
+  font-size: 16px;
 }
 
 .btn {
@@ -49,7 +68,8 @@ ul {
   border-radius: 999px;
   padding: 12px 24px;
   cursor: pointer;
-  width: 110px;
+  width: 112px;
   height: 48px;
   font-weight: 400;
+  font-size: 16px;
 }

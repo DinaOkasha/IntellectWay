@@ -24,7 +24,7 @@ export default function NavBar() {
             Services
             <span>
               <FontAwesomeIcon
-                style={{ color: " #414141" }}
+                style={{ color: " #6C757D", fontSize: "15px" }}
                 icon={faAngleDown}
               />
             </span>

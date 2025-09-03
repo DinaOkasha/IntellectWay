@@ -7,11 +7,11 @@ import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 export default function Hero() {
   return (
     <>
-      <div className="hero">
+      <div className="heroContainer">
         <div className="image">
           <img src={homeImg} alt="" />
         </div>
-        <div className="container hero-text">
+        <div className=" hero-text">
           <h1>Grow with intellectway, Strengthen Your Institution</h1>
           <p>
             Partner with us to expand your institution’s global reach through

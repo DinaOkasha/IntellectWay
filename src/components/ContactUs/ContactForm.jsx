@@ -49,14 +49,17 @@ export default function ContactForm() {
                     value="student"
                     required
                   />
+
                   <span>Student</span>
                 </label>
                 <label className="radio">
                   <input type="radio" name="inquiryType" value="professional" />
+
                   <span>Professional</span>
                 </label>
                 <label className="radio">
                   <input type="radio" name="inquiryType" value="institutes" />
+
                   <span>Institutes</span>
                 </label>
               </div>
@@ -65,11 +68,12 @@ export default function ContactForm() {
             <div className="section2">
               {" "}
               <label htmlFor="message">Message</label>
-              <input
+              <textarea
                 id="message"
                 name="message"
                 placeholder="Enter your message"
-              ></input>
+                rows={4}
+              ></textarea>
             </div>
             <div className="sectionbtn">
               <button type="submit">Send</button>
