@@ -301,11 +301,12 @@ legend {
 .radio input[type="radio"]:checked + span::after {
   content: "";
   background-color: #6c757d;
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
   position: absolute;
   border-radius: 50%;
-  left: 9px;
+  left: 10px;
   top: 40%;
-  transform: translateY(-50%);
+  border: 1px solid #fff;
+  transform: translate(-1px, -8px);
 }
