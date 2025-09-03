@@ -53,7 +53,9 @@ export default function Partners() {
             <img src={imgPartner16} alt="" />
           </div>
         </div>
-        <div className="text">+50 more</div>
+        <div>
+          <button className="text">+50 more</button>
+        </div>
       </div>
     </>
   );
