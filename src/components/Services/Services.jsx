@@ -3,8 +3,18 @@ import Heading from "../Shared/Heading/Heading";
 import ServiceCard from "./ServiceCard";
 import ltptn from "../../assets/services/Illustrations.png";
 import rtptn from "../../assets/services/Illustrations2.png";
+import { useState, useEffect } from "react";
 
 export default function Services() {
+  const [activeTab, setActiveTab] = useState("students");
+
+  const handleButtonClick = (tabName) => {
+    setActiveTab(tabName);
+  };
+
+  useEffect(() => {
+    setActiveTab("students");
+  }, []);
   return (
     <>
       <div className="containerService">
@@ -27,9 +37,33 @@ export default function Services() {
         />
 
         <div className="options">
-          <button className="btnOptions activelt">Students</button>
+          {/* <button className="btnOptions activelt">Students</button>
           <button className="btnOptions active">Professional</button>
-          <button className="btnOptions activert">Corporates</button>
+          <button className="btnOptions activert">Corporates</button> */}
+          <button
+            className={`btnOptions ${
+              activeTab === "students" ? "activelt" : ""
+            } `}
+            onClick={() => handleButtonClick("students")}
+          >
+            Students
+          </button>
+          <button
+            className={`btnOptions ${
+              activeTab === "professional" ? "active" : ""
+            }`}
+            onClick={() => handleButtonClick("professional")}
+          >
+            Professional
+          </button>
+          <button
+            className={`btnOptions ${
+              activeTab === "corporates" ? "activert" : ""
+            } `}
+            onClick={() => handleButtonClick("corporates")}
+          >
+            Corporates
+          </button>
         </div>
 
         <ServiceCard />

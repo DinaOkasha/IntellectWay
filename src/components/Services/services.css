@@ -37,13 +37,15 @@
 }
 
 .active {
-  /* background-color: #1e4469; */
+  background-color: #1e4469;
+  color: #d2dae1 !important;
 }
 
 .activert {
-  /* background-color: #1e4469;
+  background-color: #1e4469;
   border-bottom-right-radius: 12px;
-  border-top-right-radius: 12px; */
+  border-top-right-radius: 12px;
+  color: #d2dae1 !important;
 }
 
 /* //////////////////////// serviceCard ///////////////////////////////////// */
