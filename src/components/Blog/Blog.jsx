@@ -60,6 +60,11 @@ export default function Blog() {
     year: "numeric",
   });
 
+  const formatDateString = (dateString) => {
+    const [year, month, day] = dateString.split("-");
+    // Add leading zeros to single-digit month and day
+    return `${year}-${month.padStart(2, "0")}-${day.padStart(2, "0")}`;
+  };
   return (
     <>
       <div className="BlogContainer">
@@ -100,7 +105,10 @@ export default function Blog() {
               key={card.id}
               BlogTitle={card.BlogTitle}
               BlogSubtitle={card.BlogSubtitle}
-              BlogDate={formatter.format(new Date(card.BlogDate))}
+              // BlogDate={formatter.format(new Date(card.BlogDate))}
+              BlogDate={formatter.format(
+                new Date(formatDateString(card.BlogDate))
+              )}
             />
           ))}
         </div>
